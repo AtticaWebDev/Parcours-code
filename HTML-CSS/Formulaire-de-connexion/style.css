@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background: url(./src/pexels-miguel-á-padriñán-2882566.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.login {
+  width: 325px;
+  background: white;
+  text-align: center;
+  padding: 30px;
+  border-radius: 5px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.login h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.login h4 {
+  font-weight: normal;
+  padding: 10px;
+  background: black;
+  color: wheat;
+  border-radius: 5px;
+}
+
+.login input {
+  font-family: inherit;
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  font-size: 0.85em;
+}
+
+.login input[type="password"] {
+  margin-top: 5px;
+}
+
+.login input[type="submit"] {
+  margin-top: 15px;
+  width: 50%;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+  background-color: grey;
+}
