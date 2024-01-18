@@ -4,6 +4,7 @@ Ce repository contient une collection de mes mini projets réalisés pendant mon
 
 ## Structure des dossiers :
 
-- **HTML-CSS/** : Ce dossier contient les mini projets pratiques que j'ai accomplis pour renforcer mes compétences en développement web.
+- **HTML-CSS/**
+- **JAVASCRIPT/**
 
 Explorez librement les dossiers pour découvrir mes réalisations et suivre mon évolution dans le monde du code. 🌐✨
