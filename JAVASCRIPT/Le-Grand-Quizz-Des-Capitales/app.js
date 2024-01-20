@@ -1,5 +1,6 @@
 // Tableau des réponses correctes
 const rep = ["b", "d", "c", "a", "c", "b"];
+
 // Sélection du formulaire avec la classe "quizz-form"
 const form = document.querySelector(".quizz-form");
 
@@ -12,6 +13,7 @@ function funcForm(e) {
 
   // Tableau pour stocker les résultats de chaque question
   const resultat = [];
+
   // Sélection de tous les boutons radio cochés
   const toutLesBoutonsRadios = document.querySelectorAll(
     "input[type='radio']:checked"
@@ -57,9 +59,38 @@ function funcResultat(res) {
       infoResultat.innerText = `Presque !!!`;
       scoreResultat.innerHTML = "Score: <span> 5 / 6 </span>";
       break;
-    // ... (répéter pour chaque cas jusqu'à 6 erreurs)
+    case 2:
+      // ... (répéter pour chaque cas jusqu'à 6 erreurs)
+      resultat.style.backgroundColor = "rgb(14, 14, 18))";
+      titreResultat.innerText = `😅Il y a ${nombreErreurs} erreurs 😅`;
+      infoResultat.innerText = `Oups !!!`;
+      scoreResultat.innerHTML = "Score: <span> 4 / 6 </span>";
+      break;
+    case 3:
+      resultat.style.backgroundColor = "rgb(14, 14, 18)";
+      titreResultat.innerText = `😅Il y a ${nombreErreurs} erreurs 😅`;
+      infoResultat.innerText = `Oups !!!`;
+      scoreResultat.innerHTML = "Score: <span> 3 / 6 </span>";
+      break;
+    case 4:
+      resultat.style.backgroundColor = "rgb(14, 14, 18))";
+      titreResultat.innerText = `😅Il y a ${nombreErreurs} erreurs 😅`;
+      infoResultat.innerText = `Oups !!!`;
+      scoreResultat.innerHTML = "Score: <span> 2 / 6 </span>";
+      break;
+    case 5:
+      resultat.style.backgroundColor = "rgb(14, 14, 18)";
+      titreResultat.innerText = `😅Il y a ${nombreErreurs} erreurs 😅`;
+      infoResultat.innerText = `Oups !!!`;
+      scoreResultat.innerHTML = "Score: <span> 1 / 6 </span>";
+      break;
+    case 6:
+      resultat.style.backgroundColor = "rgb(14, 14, 18)";
+      titreResultat.innerText = `😭Il y a ${nombreErreurs} erreurs 😭`;
+      infoResultat.innerText = `Tu as tout faut`;
+      scoreResultat.innerHTML = "Score: <span> 0 / 6 </span>";
     default:
       // Cas par défaut pour une erreur inattendue
-      titreResultat.innerText = `Erreur inattendue !`;
+      titreResultat.innerText = `Erreur innatendu !`;
   }
 }
