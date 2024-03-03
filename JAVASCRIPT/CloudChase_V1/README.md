@@ -4,7 +4,7 @@ Bienvenue dans CloudChaser, votre application météo personnelle développée e
 
 ## Aperçu
 
-![Capture 1](./screenshot/CloudChaser_v1.png.png)
+![Capture 1](./screenshot/CloudChaser_v1.png)
 
 ## Fonctionnalités
 
